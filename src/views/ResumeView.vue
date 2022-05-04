@@ -27,7 +27,7 @@ import axios from "axios"
     },
     methods: {
       showStudent() {
-        axios.get('/students.json')
+        axios.get(`/students/${id}.json`)
         .then((res)=> {
           this.students.push(res.data)
         })
