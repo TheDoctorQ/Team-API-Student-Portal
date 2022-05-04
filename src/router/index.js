@@ -11,6 +11,11 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/resume',
+    name: 'resume',
+    component: ResumeView
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting
