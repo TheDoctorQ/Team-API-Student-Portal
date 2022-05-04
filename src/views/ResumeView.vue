@@ -1,3 +1,4 @@
+
 <script>
 export default {
   data: function () {
@@ -18,3 +19,4 @@ export default {
 
 <style>
 </style>
+
