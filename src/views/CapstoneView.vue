@@ -1,25 +1,21 @@
+<script>
+export default {
+  data: function () {
+    return {
+      message: "Capstone",
+    };
+  },
+  created: function () { },
+  methods: {},
+};
+</script>
+
 <template>
-  <div class="container">
-    
+  <div class="home">
+    <h1>{{ message }}</h1>
   </div>
 </template>
 
-<script>
-  export default {
-    data() {
-      return {
-        
-      }
-    },
-    created() {
-
-    },
-    methods: {
-
-    },
-  }
-</script>
-
 <style>
-  
+
 </style>
